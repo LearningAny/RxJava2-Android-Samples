@@ -2,6 +2,7 @@ package com.rxjava2.android.samples.ui;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import com.rxjava2.android.samples.R;
@@ -39,7 +40,6 @@ import com.rxjava2.android.samples.ui.operators.TimerExampleActivity;
 import com.rxjava2.android.samples.ui.operators.WindowExampleActivity;
 import com.rxjava2.android.samples.ui.operators.ZipExampleActivity;
 
-import androidx.appcompat.app.AppCompatActivity;
 
 public class OperatorsActivity extends AppCompatActivity {
 

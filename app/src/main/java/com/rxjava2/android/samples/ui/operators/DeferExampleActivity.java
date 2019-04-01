@@ -1,6 +1,7 @@
 package com.rxjava2.android.samples.ui.operators;
 
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -10,7 +11,6 @@ import com.rxjava2.android.samples.R;
 import com.rxjava2.android.samples.model.Car;
 import com.rxjava2.android.samples.utils.AppConstant;
 
-import androidx.appcompat.app.AppCompatActivity;
 import io.reactivex.Observable;
 import io.reactivex.Observer;
 import io.reactivex.disposables.Disposable;

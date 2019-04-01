@@ -2,6 +2,7 @@ package com.rxjava2.android.samples.ui.operators;
 
 import android.os.Bundle;
 import android.os.SystemClock;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -12,7 +13,6 @@ import com.rxjava2.android.samples.utils.AppConstant;
 
 import java.util.concurrent.Callable;
 
-import androidx.appcompat.app.AppCompatActivity;
 import io.reactivex.Observable;
 import io.reactivex.ObservableSource;
 import io.reactivex.android.schedulers.AndroidSchedulers;
